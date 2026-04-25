@@ -55,8 +55,8 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
-  ua[1]: ""
+  ua[0]: "RO_out1"
+  ua[1]: "RO_out2"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
