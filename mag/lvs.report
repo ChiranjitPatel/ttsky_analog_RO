@@ -1,0 +1,483 @@
+
+Circuit 2 cell sky130_hd_div_by_2 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: sky130_hd_div_by_2              |Circuit 2: sky130_hd_div_by_2              
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+Q                                          |Q                                          
+Qb                                         |Qb                                         
+CLK                                        |CLK                                        
+D                                          |D                                          
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_hd_div_by_2 and sky130_hd_div_by_2 are equivalent.
+
+Circuit 2 cell sky130_hd_ro32_nand is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: sky130_hd_ro32_nand             |Circuit 2: sky130_hd_ro32_nand             
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+ro32_ena                                   |ro32_ena                                   
+ro32_out                                   |ro32_out                                   
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_hd_ro32_nand and sky130_hd_ro32_nand are equivalent.
+
+Cell tt_um_analog_RO (0) disconnected node: clk
+Cell tt_um_analog_RO (0) disconnected node: rst_n
+Cell tt_um_analog_RO (0) disconnected node: ua[2]
+Cell tt_um_analog_RO (0) disconnected node: ua[3]
+Cell tt_um_analog_RO (0) disconnected node: ua[4]
+Cell tt_um_analog_RO (0) disconnected node: ua[5]
+Cell tt_um_analog_RO (0) disconnected node: ua[6]
+Cell tt_um_analog_RO (0) disconnected node: ua[7]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[0]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[1]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[2]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[3]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[4]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[5]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[6]
+Cell tt_um_analog_RO (0) disconnected node: ui_in[7]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[0]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[1]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[2]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[3]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[4]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[5]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[6]
+Cell tt_um_analog_RO (0) disconnected node: uio_in[7]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[0]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[1]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[2]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[3]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[4]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[5]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[6]
+Cell tt_um_analog_RO (0) disconnected node: uio_oe[7]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[0]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[1]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[2]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[3]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[4]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[5]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[6]
+Cell tt_um_analog_RO (0) disconnected node: uio_out[7]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[0]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[1]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[2]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[3]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[4]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[5]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[6]
+Cell tt_um_analog_RO (0) disconnected node: uo_out[7]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[7]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[6]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[5]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[4]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[3]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[2]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[1]
+Cell tt_um_analog_RO (1) disconnected node: ui_in[0]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[7]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[6]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[5]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[4]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[3]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[2]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[1]
+Cell tt_um_analog_RO (1) disconnected node: uo_out[0]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[7]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[6]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[5]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[4]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[3]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[2]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[1]
+Cell tt_um_analog_RO (1) disconnected node: uio_in[0]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[7]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[6]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[5]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[4]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[3]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[2]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[1]
+Cell tt_um_analog_RO (1) disconnected node: uio_out[0]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[7]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[6]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[5]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[4]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[3]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[2]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[1]
+Cell tt_um_analog_RO (1) disconnected node: uio_oe[0]
+Cell tt_um_analog_RO (1) disconnected node: ua[7]
+Cell tt_um_analog_RO (1) disconnected node: ua[6]
+Cell tt_um_analog_RO (1) disconnected node: ua[5]
+Cell tt_um_analog_RO (1) disconnected node: ua[4]
+Cell tt_um_analog_RO (1) disconnected node: ua[3]
+Cell tt_um_analog_RO (1) disconnected node: ua[2]
+Cell tt_um_analog_RO (1) disconnected node: clk
+Cell tt_um_analog_RO (1) disconnected node: rst_n
+Cell tt_um_analog_RO (1) disconnected node: (/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: )/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: ,/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: )/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: ,/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: )/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: dff_2_3_fb/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: (/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: )/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: ,/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: )/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: ,/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: )/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: dff_2_1_fb/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: ua[0]/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: ua[1]/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: [/(no pins)
+Cell tt_um_analog_RO (1) disconnected node: VGND/(no pins)
+Subcircuit summary:
+Circuit 1: tt_um_analog_RO                 |Circuit 2: tt_um_analog_RO                 
+-------------------------------------------|-------------------------------------------
+sky130_hd_div_by_2 (5)                     |sky130_hd_div_by_2 (3) **Mismatch**        
+sky130_hd_ro32_nand (1)                    |sky130_hd_ro32_nand (1)                    
+(no matching element)                      |sky130_hd_div_by_2_3 (1)                   
+(no matching element)                      |VGND (2)                                   
+(no matching element)                      |( (6)                                      
+(no matching element)                      |dff_2_3_out (1)                            
+(no matching element)                      |dff_2_4_out (1)                            
+(no matching element)                      |sky130_hd_div_by_2_1 (1)                   
+(no matching element)                      |dff_2_1_out (1)                            
+(no matching element)                      |dff_2_2_out (1)                            
+(no matching element)                      |uo_out (8)                                 
+(no matching element)                      |= (24)                                     
+(no matching element)                      |uio_out (8)                                
+(no matching element)                      |uio_oe (8)                                 
+Number of devices: 6 **Mismatch**          |Number of devices: 66 **Mismatch**         
+Number of nets: 14 **Mismatch**            |Number of nets: 12 **Mismatch**            
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: tt_um_analog_RO                 |Circuit 2: tt_um_analog_RO                 
+
+---------------------------------------------------------------------------------------
+Net: sky130_hd_div_by_2_1/D                |Net: dff_2_2_fb                            
+  sky130_hd_div_by_2/Qb = 1                |  sky130_hd_div_by_2/Qb = 1                
+  sky130_hd_div_by_2/D = 1                 |  sky130_hd_div_by_2/D = 1                 
+                                           |                                           
+Net: sky130_hd_div_by_2_2/D                |Net: dff_2_0_fb                            
+  sky130_hd_div_by_2/Qb = 1                |  sky130_hd_div_by_2/Qb = 1                
+  sky130_hd_div_by_2/D = 1                 |  sky130_hd_div_by_2/D = 1                 
+                                           |                                           
+Net: sky130_hd_div_by_2_0/Q                |Net: dff_2_2_out                           
+  sky130_hd_div_by_2/Q = 1                 |  sky130_hd_div_by_2/Q = 1                 
+  sky130_hd_div_by_2/CLK = 1               |                                           
+                                           |                                           
+Net: ua[1]                                 |Net: ua[1]                                 
+  sky130_hd_div_by_2/Q = 1                 |  sky130_hd_div_by_2/Q = 1                 
+                                           |                                           
+Net: sky130_hd_div_by_2_3/Q                |Net: dff_2_4_out                           
+  sky130_hd_div_by_2/CLK = 1               |  sky130_hd_div_by_2/Q = 1                 
+  sky130_hd_div_by_2/Q = 1                 |                                           
+                                           |                                           
+Net: sky130_hd_div_by_2_4/Q                |Net: dff_2_3_out                           
+  sky130_hd_div_by_2/CLK = 1               |  sky130_hd_div_by_2/CLK = 1               
+  sky130_hd_div_by_2/Q = 1                 |                                           
+                                           |                                           
+Net: sky130_hd_div_by_2_0/D                |Net: dff_2_1_out                           
+  sky130_hd_div_by_2/Qb = 1                |  sky130_hd_div_by_2/CLK = 1               
+  sky130_hd_div_by_2/D = 1                 |                                           
+                                           |                                           
+Net: VGND                                  |Net: VGND                                  
+  sky130_hd_div_by_2/VSS = 5               |  sky130_hd_div_by_2/VSS = 3               
+  sky130_hd_ro32_nand/VSS = 1              |  sky130_hd_ro32_nand/VSS = 1              
+                                           |                                           
+Net: VDPWR                                 |Net: VDPWR                                 
+  sky130_hd_div_by_2/VDD = 5               |  sky130_hd_div_by_2/VDD = 3               
+  sky130_hd_ro32_nand/VDD = 1              |  sky130_hd_ro32_nand/VDD = 1              
+                                           |                                           
+Net: sky130_hd_div_by_2_3/D                |(no matching net)                          
+  sky130_hd_div_by_2/Qb = 1                |                                           
+  sky130_hd_div_by_2/D = 1                 |                                           
+                                           |                                           
+Net: sky130_hd_div_by_2_2/Q                |(no matching net)                          
+  sky130_hd_div_by_2/CLK = 1               |                                           
+  sky130_hd_div_by_2/Q = 1                 |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: tt_um_analog_RO                 |Circuit 2: tt_um_analog_RO                 
+
+---------------------------------------------------------------------------------------
+Instance: sky130_hd_div_by_2_0             |Instance: sky130_hd_div_by_2_2             
+  VSS = 6                                  |  VSS = 4                                  
+  Q = 2                                    |  Q = 1                                    
+  Qb = 2                                   |  Qb = 2                                   
+  CLK = 2                                  |  CLK = 1                                  
+  D = 2                                    |  D = 2                                    
+  VDD = 6                                  |  VDD = 4                                  
+                                           |                                           
+Instance: sky130_hd_div_by_2_1             |Instance: sky130_hd_div_by_2_0             
+  VSS = 6                                  |  VSS = 4                                  
+  Q = 1                                    |  Q = 1                                    
+  Qb = 2                                   |  Qb = 2                                   
+  CLK = 2                                  |  CLK = 1                                  
+  D = 2                                    |  D = 2                                    
+  VDD = 6                                  |  VDD = 4                                  
+                                           |                                           
+Instance: sky130_hd_div_by_2_2             |Instance: (                                
+  VSS = 6                                  |  (no pins) = 0                            
+  Q = 2                                    |                                           
+  Qb = 2                                   |                                           
+  CLK = 2                                  |                                           
+  D = 2                                    |                                           
+  VDD = 6                                  |                                           
+                                           |                                           
+Instance: sky130_hd_div_by_2_3             |Instance: )                                
+  VSS = 6                                  |  (no pins) = 0                            
+  Q = 2                                    |                                           
+  Qb = 2                                   |                                           
+  CLK = 2                                  |                                           
+  D = 2                                    |                                           
+  VDD = 6                                  |                                           
+                                           |                                           
+(no matching instance)                     |Instance: )                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: ,                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: ,                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: dff_2_3_fb                       
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: ,                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: ,                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: dff_2_1_fb                       
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: )                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: )                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: (                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: )                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: )                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: ua[0]                            
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: ua[1]                            
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: VGND                             
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+                                           |                                           
+(no matching instance)                     |Instance: [                                
+                                           |  (no pins) = 0                            
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: tt_um_analog_RO                 |Circuit 2: tt_um_analog_RO                 
+-------------------------------------------|-------------------------------------------
+VGND                                       |(no pin, node is dff_2_2_fb)               
+VDPWR                                      |(no pin, node is dff_2_0_fb)               
+Cell pin lists are equivalent.
+Device classes tt_um_analog_RO and tt_um_analog_RO are equivalent.
+
+Final result: Netlists do not match.
+Port matching may fail to disambiguate symmetries.
