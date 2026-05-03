@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1777818365
+timestamp 1777824325
 << error_s >>
 rect -178 217 -172 223
 rect -60 217 -54 223
@@ -113,11 +113,11 @@ rect 1455 78 1462 130
 rect 1514 78 1576 130
 rect 1455 69 1576 78
 use sky130_hd_dfxbp_1  sky130_hd_dfxbp_1_0
-timestamp 1777818365
+timestamp 1777824325
 transform 1 0 -210 0 1 -42
 box -38 -48 1786 592
 use sky130_hd_tapvpwrvgnd_1  sky130_hd_tapvpwrvgnd_1_0
-timestamp 1777818365
+timestamp 1777824325
 transform 1 0 1538 0 1 -42
 box -38 -48 130 592
 << labels >>

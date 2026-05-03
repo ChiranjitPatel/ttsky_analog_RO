@@ -2,7 +2,7 @@
 <report-database>
  <description>SKY130 DRC runset</description>
  <original-file>../gds/tt_um_analog_RO.gds</original-file>
- <generator>drc: script='/home/octane/.klayout/salt/Efabless_sky130/tech/sky130/macros/run_drc_full.lydrc'</generator>
+ <generator>drc: script='/usr/local/share/pdk/sky130A/libs.tech/klayout/pymacros/../drc/sky130A_mr.drc'</generator>
  <top-cell>tt_um_analog_RO</top-cell>
  <tags>
   <tag>
@@ -686,6 +686,12 @@
    </categories>
   </category>
   <category>
+   <name>m1.x</name>
+   <description>floating met1, must interact with via1</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>m1.5</name>
    <description>m1.5 : min. m1 enclosure of mcon of 2 adjacent edges : 0.06um</description>
    <categories>
@@ -778,6 +784,12 @@
   <category>
    <name>m2.7</name>
    <description>m2.7 : min. m2 holes area : 0.14um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.x</name>
+   <description>floating met2, must interact with via1 or via2</description>
    <categories>
    </categories>
   </category>
@@ -884,6 +896,12 @@
    </categories>
   </category>
   <category>
+   <name>m3.x</name>
+   <description>floating met3, must interact with via2 or via3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>m3.4</name>
    <description>m3.4 : min. m3 enclosure of via2 : 0.065um</description>
    <categories>
@@ -970,6 +988,12 @@
   <category>
    <name>m4.5ab</name>
    <description>m4.5ab : min. 3um.m4 spacing m4 : 0.4um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.x</name>
+   <description>floating met3, must interact with via3 or via4</description>
    <categories>
    </categories>
   </category>
@@ -1066,6 +1090,12 @@
   <category>
    <name>m5.3_a</name>
    <description>m5.3_a : via must be enclosed by m5</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5.x</name>
+   <description>floating met5, must interact with via4</description>
    <categories>
    </categories>
   </category>
@@ -1578,5 +1608,293 @@
   </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (110.71,224.76;110.71,225.76;111.01,225.76;111.01,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (107.95,224.76;107.95,225.76;108.25,225.76;108.25,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (105.19,224.76;105.19,225.76;105.49,225.76;105.49,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (118.99,224.76;118.99,225.76;119.29,225.76;119.29,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (102.43,224.76;102.43,225.76;102.73,225.76;102.73,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (99.67,224.76;99.67,225.76;99.97,225.76;99.97,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (124.51,224.76;124.51,225.76;124.81,225.76;124.81,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (113.17,0;113.17,1;114.07,1;114.07,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (138.31,224.76;138.31,225.76;138.61,225.76;138.61,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (116.23,224.76;116.23,225.76;116.53,225.76;116.53,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (93.85,0;93.85,1;94.75,1;94.75,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (96.91,224.76;96.91,225.76;97.21,225.76;97.21,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (35.89,0;35.89,1;36.79,1;36.79,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (113.47,224.76;113.47,225.76;113.77,225.76;113.77,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (130.03,224.76;130.03,225.76;130.33,225.76;130.33,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (74.53,0;74.53,1;75.43,1;75.43,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (55.21,0;55.21,1;56.11,1;56.11,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (143.83,224.76;143.83,225.76;144.13,225.76;144.13,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (141.07,224.76;141.07,225.76;141.37,225.76;141.37,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (16.57,0;16.57,1;17.47,1;17.47,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (135.55,224.76;135.55,225.76;135.85,225.76;135.85,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (132.79,224.76;132.79,225.76;133.09,225.76;133.09,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (121.75,224.76;121.75,225.76;122.05,225.76;122.05,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (127.27,224.76;127.27,225.76;127.57,225.76;127.57,224.76)</value>
+   </values>
+  </item>
  </items>
 </report-database>
