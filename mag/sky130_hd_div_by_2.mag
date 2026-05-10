@@ -1,7 +1,9 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1777912444
+timestamp 1778431145
+<< checkpaint >>
+rect -1508 -1350 2928 1810
 << viali >>
 rect 1182 372 1216 406
 rect 1182 300 1216 334
@@ -100,11 +102,11 @@ rect 1455 78 1462 130
 rect 1514 78 1576 130
 rect 1455 69 1576 78
 use sky130_hd_dfxbp_1  sky130_hd_dfxbp_1_0
-timestamp 1777912444
+timestamp 1778431145
 transform 1 0 -210 0 1 -42
 box -38 -48 1786 592
 use sky130_hd_tapvpwrvgnd_1  sky130_hd_tapvpwrvgnd_1_0
-timestamp 1777912444
+timestamp 1778431145
 transform 1 0 1538 0 1 -42
 box -38 -48 130 592
 << labels >>
