@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>SKY130 DRC runset</description>
- <original-file>../gds/tt_um_analog_RO.gds</original-file>
+ <original-file>gds/tt_um_analog_RO.gds</original-file>
  <generator>drc: script='/home/octane/.klayout/salt/Efabless_sky130/tech/sky130/pymacros/../drc/sky130A_mr.drc'</generator>
  <top-cell>tt_um_analog_RO</top-cell>
  <tags>
@@ -1586,42 +1586,6 @@
  <items>
   <item>
    <tags/>
-   <category>'via2.4_a'</category>
-   <cell>tt_um_analog_RO</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (31.59,203.7;31.59,203.9;31.76,203.9;31.76,203.7)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via2.4_a'</category>
-   <cell>tt_um_analog_RO</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (31.59,203.3;31.59,203.5;31.76,203.5;31.76,203.3)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via2.4_a'</category>
-   <cell>tt_um_analog_RO</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (31.59,202.9;31.59,203.1;31.76,203.1;31.76,202.9)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
    <category>'m4.x'</category>
    <cell>tt_um_analog_RO</cell>
    <visited>false</visited>
@@ -1666,54 +1630,6 @@
    <image/>
    <values>
     <value>polygon: (141.07,224.76;141.07,225.76;141.37,225.76;141.37,224.76)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m4.x'</category>
-   <cell>tt_um_analog_RO</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (113.17,0;113.17,1;114.07,1;114.07,0)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m4.x'</category>
-   <cell>tt_um_analog_RO</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (74.53,0;74.53,1;75.43,1;75.43,0)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m4.x'</category>
-   <cell>tt_um_analog_RO</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (99.67,224.76;99.67,225.76;99.97,225.76;99.97,224.76)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m4.x'</category>
-   <cell>tt_um_analog_RO</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (107.95,224.76;107.95,225.76;108.25,225.76;108.25,224.76)</value>
    </values>
   </item>
   <item>
@@ -1773,7 +1689,55 @@
    <comment/>
    <image/>
    <values>
+    <value>polygon: (113.17,0;113.17,1;114.07,1;114.07,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
     <value>polygon: (55.21,0;55.21,1;56.11,1;56.11,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (74.53,0;74.53,1;75.43,1;75.43,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (99.67,224.76;99.67,225.76;99.97,225.76;99.97,224.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.x'</category>
+   <cell>tt_um_analog_RO</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (107.95,224.76;107.95,225.76;108.25,225.76;108.25,224.76)</value>
    </values>
   </item>
   <item>
