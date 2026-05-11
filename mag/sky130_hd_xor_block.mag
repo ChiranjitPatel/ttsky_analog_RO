@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1778431145
-<< checkpaint >>
-rect -2103 -1965 1882 1834
+timestamp 1778514402
 << locali >>
 rect 22 252 23 372
 rect 394 195 526 205
@@ -411,39 +409,39 @@ rect -144 -102 -128 -38
 rect -64 -102 31 -38
 rect -791 -175 31 -102
 use sky130_hd_inv_1  sky130_hd_inv_1_0
-timestamp 1778431145
+timestamp 1778514402
 transform 1 0 -415 0 -1 -70
 box -38 -48 358 592
 use sky130_hd_inv_1  sky130_hd_inv_1_1
-timestamp 1778431145
+timestamp 1778514402
 transform 1 0 -691 0 -1 -70
 box -38 -48 358 592
 use sky130_hd_inv_1  sky130_hd_inv_1_2
-timestamp 1778431145
+timestamp 1778514402
 transform 1 0 -691 0 1 -70
 box -38 -48 358 592
 use sky130_hd_inv_1  sky130_hd_inv_1_3
-timestamp 1778431145
+timestamp 1778514402
 transform 1 0 -415 0 1 -70
 box -38 -48 358 592
 use sky130_hd_tapvpwrvgnd_1  sky130_hd_tapvpwrvgnd_1_0
-timestamp 1778431145
+timestamp 1778514402
 transform -1 0 137 0 -1 -70
 box -38 -48 130 592
 use sky130_hd_tapvpwrvgnd_1  sky130_hd_tapvpwrvgnd_1_1
-timestamp 1778431145
+timestamp 1778514402
 transform -1 0 45 0 -1 -70
 box -38 -48 130 592
 use sky130_hd_tapvpwrvgnd_1  sky130_hd_tapvpwrvgnd_1_2
-timestamp 1778431145
+timestamp 1778514402
 transform -1 0 -47 0 -1 -70
 box -38 -48 130 592
 use sky130_hd_tapvpwrvgnd_1  sky130_hd_tapvpwrvgnd_1_3
-timestamp 1778431145
+timestamp 1778514402
 transform 1 0 -783 0 1 -70
 box -38 -48 130 592
 use sky130_hd_xor2_1  sky130_hd_xor2_1_0
-timestamp 1778431145
+timestamp 1778514402
 transform 1 0 -139 0 1 -70
 box -38 -48 682 592
 << labels >>

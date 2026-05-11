@@ -8,8 +8,6 @@ MACRO tt_um_analog_RO
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.318000 ;
     PORT
       LAYER met4 ;
@@ -17,8 +15,6 @@ MACRO tt_um_analog_RO
     END
   END clk
   PIN ena
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met4 ;
@@ -26,16 +22,12 @@ MACRO tt_um_analog_RO
     END
   END ena
   PIN rst_n
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 141.070 224.760 141.370 225.760 ;
     END
   END rst_n
   PIN ua[0]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.159000 ;
     ANTENNADIFFAREA 0.429000 ;
     PORT
@@ -44,8 +36,6 @@ MACRO tt_um_analog_RO
     END
   END ua[0]
   PIN ua[1]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 0.429000 ;
     PORT
       LAYER met4 ;
@@ -53,80 +43,60 @@ MACRO tt_um_analog_RO
     END
   END ua[1]
   PIN ua[2]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 113.170 0.000 114.070 1.000 ;
     END
   END ua[2]
   PIN ua[3]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 93.850 0.000 94.750 1.000 ;
     END
   END ua[3]
   PIN ua[4]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 74.530 0.000 75.430 1.000 ;
     END
   END ua[4]
   PIN ua[5]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 55.210 0.000 56.110 1.000 ;
     END
   END ua[5]
   PIN ua[6]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 35.890 0.000 36.790 1.000 ;
     END
   END ua[6]
   PIN ua[7]
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 16.570 0.000 17.470 1.000 ;
     END
   END ua[7]
   PIN ui_in[0]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 138.310 224.760 138.610 225.760 ;
     END
   END ui_in[0]
   PIN ui_in[1]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 135.550 224.760 135.850 225.760 ;
     END
   END ui_in[1]
   PIN ui_in[2]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 132.790 224.760 133.090 225.760 ;
     END
   END ui_in[2]
   PIN ui_in[3]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met4 ;
@@ -134,8 +104,6 @@ MACRO tt_um_analog_RO
     END
   END ui_in[3]
   PIN ui_in[4]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met4 ;
@@ -143,8 +111,6 @@ MACRO tt_um_analog_RO
     END
   END ui_in[4]
   PIN ui_in[5]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met4 ;
@@ -152,8 +118,6 @@ MACRO tt_um_analog_RO
     END
   END ui_in[5]
   PIN ui_in[6]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met4 ;
@@ -161,8 +125,6 @@ MACRO tt_um_analog_RO
     END
   END ui_in[6]
   PIN ui_in[7]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met4 ;
@@ -170,72 +132,54 @@ MACRO tt_um_analog_RO
     END
   END ui_in[7]
   PIN uio_in[0]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 116.230 224.760 116.530 225.760 ;
     END
   END uio_in[0]
   PIN uio_in[1]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 113.470 224.760 113.770 225.760 ;
     END
   END uio_in[1]
   PIN uio_in[2]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 110.710 224.760 111.010 225.760 ;
     END
   END uio_in[2]
   PIN uio_in[3]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 107.950 224.760 108.250 225.760 ;
     END
   END uio_in[3]
   PIN uio_in[4]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 105.190 224.760 105.490 225.760 ;
     END
   END uio_in[4]
   PIN uio_in[5]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 102.430 224.760 102.730 225.760 ;
     END
   END uio_in[5]
   PIN uio_in[6]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 99.670 224.760 99.970 225.760 ;
     END
   END uio_in[6]
   PIN uio_in[7]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
     PORT
       LAYER met4 ;
         RECT 96.910 224.760 97.210 225.760 ;
     END
   END uio_in[7]
   PIN uio_oe[0]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -243,8 +187,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[0]
   PIN uio_oe[1]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -252,8 +194,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[1]
   PIN uio_oe[2]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -261,8 +201,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[2]
   PIN uio_oe[3]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -270,8 +208,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[3]
   PIN uio_oe[4]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -279,8 +215,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[4]
   PIN uio_oe[5]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -288,8 +222,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[5]
   PIN uio_oe[6]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -297,8 +229,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[6]
   PIN uio_oe[7]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -306,8 +236,6 @@ MACRO tt_um_analog_RO
     END
   END uio_oe[7]
   PIN uio_out[0]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -315,8 +243,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[0]
   PIN uio_out[1]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -324,8 +250,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[1]
   PIN uio_out[2]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -333,8 +257,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[2]
   PIN uio_out[3]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -342,8 +264,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[3]
   PIN uio_out[4]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -351,8 +271,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[4]
   PIN uio_out[5]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -360,8 +278,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[5]
   PIN uio_out[6]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -369,8 +285,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[6]
   PIN uio_out[7]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -378,8 +292,6 @@ MACRO tt_um_analog_RO
     END
   END uio_out[7]
   PIN uo_out[0]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met4 ;
@@ -387,8 +299,6 @@ MACRO tt_um_analog_RO
     END
   END uo_out[0]
   PIN uo_out[1]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -396,8 +306,6 @@ MACRO tt_um_analog_RO
     END
   END uo_out[1]
   PIN uo_out[2]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -405,8 +313,6 @@ MACRO tt_um_analog_RO
     END
   END uo_out[2]
   PIN uo_out[3]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -414,8 +320,6 @@ MACRO tt_um_analog_RO
     END
   END uo_out[3]
   PIN uo_out[4]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -423,8 +327,6 @@ MACRO tt_um_analog_RO
     END
   END uo_out[4]
   PIN uo_out[5]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -432,8 +334,6 @@ MACRO tt_um_analog_RO
     END
   END uo_out[5]
   PIN uo_out[6]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -441,8 +341,6 @@ MACRO tt_um_analog_RO
     END
   END uo_out[6]
   PIN uo_out[7]
-    DIRECTION OUTPUT ;
-    USE SIGNAL ;
     ANTENNADIFFAREA 101.229149 ;
     PORT
       LAYER met4 ;
@@ -450,15 +348,13 @@ MACRO tt_um_analog_RO
     END
   END uo_out[7]
   PIN VDPWR
-    DIRECTION INOUT ;
-    USE POWER ;
+    ANTENNADIFFAREA 155.796097 ;
     PORT
       LAYER met4 ;
         RECT 1.000 5.000 3.000 220.760 ;
     END
   END VDPWR
   PIN VGND
-    DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER met4 ;
